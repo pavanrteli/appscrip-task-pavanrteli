@@ -1,0 +1,166 @@
+.footerWrapper {
+  background: #000;
+  color: #fff;
+  padding: 3rem 2rem 1.5rem 2rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.subscribeSection {
+  flex: 2;
+  min-width: 320px;
+}
+.subscribeSection h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.01em;
+}
+.subscribeSection p {
+  color: #ccc;
+  margin-bottom: 1.2rem;
+}
+.subscribeForm {
+  display: flex;
+  gap: 0.5rem;
+}
+.subscribeForm input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+}
+.subscribeForm button {
+  padding: 0.8rem 2.2rem;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.subscribeForm button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.contactSection {
+  flex: 1;
+  min-width: 220px;
+}
+.contactSection h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  margin-top: 1.2rem;
+}
+.contactSection h3:first-child {
+  margin-top: 0;
+}
+.contactSection p {
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+.currency {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.currencyNote {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 2.5rem 0 2rem 0;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.linksSection {
+  display: flex;
+  gap: 4rem;
+}
+.linksSection h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+.linksSection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.linksSection li {
+  margin-bottom: 0.5rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.linksSection li:hover {
+  color: #fff;
+}
+
+.socialSection {
+  min-width: 220px;
+}
+.socialSection h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+.socialIcons {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+.payments {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.7rem;
+}
+.payments img {
+  height: 32px;
+  width: auto;
+  background: #fff;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.copyright {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 900px) {
+  .topRow, .bottomRow {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .linksSection {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
